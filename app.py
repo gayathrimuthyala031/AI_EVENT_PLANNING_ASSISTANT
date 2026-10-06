@@ -171,4 +171,4 @@ if user_input:
                 except Exception as e:
                     st.caption(f"Voice output error: {e} (internet kavali)")
 
-    st.session_state.messages.append({"role": "assistant", "content": answer})strea
+    st.session_state.messages.append({"role": "assistant", "content": answer})
